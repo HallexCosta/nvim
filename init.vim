@@ -12,7 +12,8 @@ let config_path = stdpath('config')
 source $HOME/AppData/Local/nvim/vim-plug/plugins.vim
 
 " Plugins Config
-source $HOME/AppData/local/nvim/plug-config/Lengs.vim
+source $HOME/AppData/Local/nvim/plug-config/Lengs.vim
+source $HOME/AppData/Local/nvim/plug-config/emmet.vim
 
 source $HOME/AppData/Local/nvim/themes/airline.vim
 source $HOME/AppData/Local/nvim/general/settings.vim

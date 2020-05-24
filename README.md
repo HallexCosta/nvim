@@ -5,6 +5,7 @@
 * **Dracula**
 * **Vim Run**
 * **Lens**
+* **Emmet**
 
 ## Plugins Manual
 * **vim-airline/vim-airline**
@@ -12,7 +13,7 @@
 * **dracula/vim**
 * **camspiers/animate.vim**
 * **camspiers/lens.vim**
-
+* **mattn/emmet-vim**
 
 ## Interface Images
 None Image
