@@ -4,12 +4,15 @@
 * **Airline** 
 * **Dracula**
 * **Vim Run**
+* **Lens**
 
 ## Plugins Manual
-* **https://github.com/**
 * **vim-airline/vim-airline**
 * **sbdchd/vim-run**
 * **dracula/vim**
+* **camspiers/animate.vim**
+* **camspiers/lens.vim**
+
 
 ## Interface Images
 None Image
