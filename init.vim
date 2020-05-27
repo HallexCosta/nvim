@@ -1,21 +1,17 @@
-set encoding=utf-8
+" Absolute directory
+let $nvim_path = expand('<sfile>:p:h')
 
-if (!(exists("+termguicolors") && &termguicolors))
-  set termguicolors
-endif
-
-" Root DIR
-let data_path = stdpath('data')
-let config_path = stdpath('config')
+" Configs global settings
+source $nvim_path/config.vim
 
 " Autoload Plugins
-source $HOME/AppData/Local/nvim/vim-plug/plugins.vim
+source $nvim_path/vim-plug/plugins.vim
 
 " Plugins Config
-source $HOME/AppData/Local/nvim/plug-config/Lengs.vim
-source $HOME/AppData/Local/nvim/plug-config/emmet.vim
+source $nvim_path/plug-config/lengs.vim
+source $nvim_path/plug-config/emmet.vim
 
-source $HOME/AppData/Local/nvim/themes/airline.vim
-source $HOME/AppData/Local/nvim/general/settings.vim
-source $HOME/AppData/Local/nvim/keys/mappings.vim
-source $HOME/AppData/Local/nvim/general/paths.vim
+source $nvim_path/themes/airline.vim
+source $nvim_path/general/settings.vim
+source $nvim_path/keys/mappings.vim
+source $nvim_path/general/paths.vim
