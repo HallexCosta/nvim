@@ -4,7 +4,7 @@ namespace Repository\Users;
 
 /*
  * Author: HallexCosta
- * Role: Developser
+ * Role: Developer
  */
 class UserRepository
 {
