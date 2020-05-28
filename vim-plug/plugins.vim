@@ -1,6 +1,6 @@
 " Bootstrap plug.vim
 function BootstrapPlugins()
-    let autoload_plug_path = stdpath('config') . '/autoload/plug.vim'
+    let autoload_plug_path = $nvim_path . '/autoload/plug.vim'
     
     if !filereadable(autoload_plug_path)
         silent execute '!curl -fLo ' . autoload_plug_path . ' --create-dirs
@@ -11,7 +11,7 @@ endfunction
 
 " Autoload Plugins
 function AutoloadPlugVim()
-    let plug_install_path = stdpath('config') . '/autoload/plugged'
+    let plug_install_path = $nvim_path . '/autoload/plugged'
 
     call plug#begin(plug_install_path)
         "Status powerline
