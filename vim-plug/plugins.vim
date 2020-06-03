@@ -22,5 +22,4 @@ function AutoloadPlugVim()
 endfunction
 
 " Callables function
-call BootstrapPlugins()
 call AutoloadPlugVim()

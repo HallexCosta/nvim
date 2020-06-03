@@ -1,5 +1,3 @@
-
-
 # NeoVim Settings and Datas
 
 ## Plugins
@@ -16,6 +14,18 @@
 * **camspiers/animate.vim**
 * **camspiers/lens.vim**
 * **mattn/emmet-vim**
+
+## Requeriments
+* NeoVim ^0.3.0
+
+## Install Neovim
+**Windows**
+> **choco install neovim**
+
+**Linux**
+> **sudo add-apt-repository ppa:neovim-ppa/stable**
+> **sudo apt-get update**
+> **sudo apt-get install neovim**
 
 ## Font
 * Source Code Pro for Powerline
@@ -51,6 +61,9 @@
 
 ## Alert
 
-> ***These settings were tested on Windows 10.***
-> ***I don't know if it works on MacOS and Linux (I believe so).***
+> ***These settings were tested on Windows 10 and WSL (Ubuntu 18.04).***
+> ***I don't know if it works on MacOS (I believe so).***
 
+# Author
+| [<img src="https://avatars2.githubusercontent.com/u/55293671?s=200&v=4"><br><sub>@HallexCosta</sub>](https://github.com/HallexCosta) |
+| :---: |
