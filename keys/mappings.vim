@@ -1,5 +1,3 @@
-let mapleader = '\<Space>'
-
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -24,13 +22,15 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
-nnoremap <C-s> :w<CR>
+nnoremap <silent> <C-s> :w<CR>
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" Copy content
+vnoremap <C-c> "+y<Esc>
 
 " Better tabbing
 vnoremap < <gv
@@ -42,8 +42,8 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-nnoremap <Leader>o o<Esc>^Da
-nnoremap <Leader>O O<Esc>^Da
+"nnoremap <Leader>o o<Esc>^Da
+"nnoremap <Leader>O O<Esc>^Da
 
 " Move Line alt + jk
 nnoremap <A-j> :m .+1<CR>==
@@ -52,3 +52,6 @@ inoremap <A-j> <Esc>:m .+1<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
+
+" Reload current vim file in memory
+nnoremap <leader>sv :source $nvim_path/init.vim<cr>
