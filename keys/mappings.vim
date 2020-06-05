@@ -1,12 +1,14 @@
+let mapleader = '\<Space>'
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
-" Use alt + hjkl to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
+" Use alt + shift + hjkl to resize windows
+nnoremap <M-S-j>    :resize -2<CR>
+nnoremap <M-S-k>    :resize +2<CR>
+nnoremap <M-S-h>    :vertical resize -2<CR>
+nnoremap <M-S-l>    :vertical resize +2<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
@@ -42,3 +44,11 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+" Move Line alt + jk
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
