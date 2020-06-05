@@ -18,6 +18,13 @@ function AutoloadPlugVim()
         
         " Emmet snippets for HTML
         Plug 'mattn/emmet-vim'
+
+       " Better Syntax Support
+        Plug 'sheerun/vim-polyglot'
+        " File Explorer
+        Plug 'scrooloose/NERDTree'
+        " Auto pairs for '(' '[' '{'
+        Plug 'jiangmiao/auto-pairs'  
     call plug#end()
 endfunction
 
