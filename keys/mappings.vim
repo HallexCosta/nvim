@@ -29,8 +29,6 @@ nnoremap <C-Q> :wq!<CR>
 nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-" Copy content
-vnoremap <C-c> "+y<Esc>
 
 " Better tabbing
 vnoremap < <gv
