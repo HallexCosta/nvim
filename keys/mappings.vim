@@ -40,8 +40,8 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-"nnoremap <Leader>o o<Esc>^Da
-"nnoremap <Leader>O O<Esc>^Da
+nnoremap <Leader>o o<Esc>^Da
+nnoremap <Leader>O O<Esc>^Da
 
 " Move Line alt + jk
 nnoremap <A-j> :m .+1<CR>==
@@ -51,5 +51,8 @@ inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
+" Select all lines ctrl + a
+nnoremap <C-a> ggVG
+
 " Reload current vim file in memory
-nnoremap <leader>sv :source $nvim_path/init.vim<cr>
+nnoremap <Leader>sv :source $nvim_path/init.vim<cr>
