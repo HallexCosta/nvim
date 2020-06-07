@@ -4,7 +4,6 @@ let g:mapleader = ","
 colorscheme dracula                     " Configure dracula theme
 syntax enable                           " Enables syntax highlighing
 
-set timeoutlen=500                      " Set timeout of leader key
 set termguicolors                       " Set pretty colors
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
