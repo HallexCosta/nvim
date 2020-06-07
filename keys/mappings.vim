@@ -54,5 +54,8 @@ vnoremap <A-k> :m '<-2<CR>gv=gv
 " Select all lines ctrl + a
 nnoremap <C-a> ggVG
 
+" NERDTree toggle with ctrl + o
+nnoremap <C-o> :NERDTreeToggle<CR>
+
 " Reload current vim file in memory
 nnoremap <Leader>sv :source $nvim_path/init.vim<cr>
