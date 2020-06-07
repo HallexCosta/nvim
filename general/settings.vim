@@ -1,5 +1,5 @@
 " set leader key
-let g:mapleader = "\<Space>"
+let g:mapleader = ","
 
 colorscheme dracula                     " Configure dracula theme
 syntax enable                           " Enables syntax highlighing
