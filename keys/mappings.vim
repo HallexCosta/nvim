@@ -31,8 +31,10 @@ nnoremap <C-c> <Esc>
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " Better tabbing
-vnoremap < <gv
-vnoremap > >gv
+vnoremap <silent> < <gv
+vnoremap <silent> > >gv
+vnoremap <silent> <TAB> >gv
+vnoremap <silent> <S-TAB> <gv
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
