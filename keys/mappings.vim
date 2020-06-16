@@ -57,6 +57,10 @@ vnoremap <silent> <A-k> :m '<-2<CR>gv=gv
 nnoremap <silent> <C-z> u
 inoremap <silent> <C-z> <Esc>u
 
+" Auto identation
+nnoremap <silent> <A-S-f> <Esc>gg=G
+inoremap <silent> <A-S-f> <Esc>gg=G
+
 " Select all lines ctrl + a
 nnoremap <C-a> ggVG
 
