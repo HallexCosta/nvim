@@ -53,6 +53,10 @@ inoremap <silent> <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <silent> <A-j> :m '>+1<CR>gv=gv
 vnoremap <silent> <A-k> :m '<-2<CR>gv=gv
 
+" Undo
+nnoremap <silent> <C-z> u
+inoremap <silent> <C-z> <Esc>u
+
 " Select all lines ctrl + a
 nnoremap <C-a> ggVG
 
