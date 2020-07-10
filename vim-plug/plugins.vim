@@ -3,6 +3,9 @@ function AutoloadPlugVim()
     let plug_install_path = $nvim_path . '/autoload/plugged'
 
     call plug#begin(plug_install_path)
+        " Dracula Theme
+        Plug 'dracula/vim', { 'as': 'dracula'  }
+
         "Status powerline
         Plug 'vim-airline/vim-airline'
 
