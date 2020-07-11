@@ -3,6 +3,9 @@ function AutoloadPlugVim()
     let plug_install_path = $nvim_path . '/autoload/plugged'
 
     call plug#begin(plug_install_path)
+        " Intellisense    
+        Plug 'neoclide/coc.nvim', {'branch': 'release'}
+        
         " vim-javascript
         Plug 'pangloss/vim-javascript'
 
@@ -14,9 +17,6 @@ function AutoloadPlugVim()
 
         " Run build interpreter
         Plug 'sbdchd/vim-run'
-
-        " Dracula Theme and Colorschema
-	      Plug 'dracula/vim'
 
         " Lengs Windows Resize
         Plug 'camspiers/animate.vim'

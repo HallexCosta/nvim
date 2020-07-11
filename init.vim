@@ -15,6 +15,7 @@ source $nvim_path/vim-plug/bootstrap/plug_install.vim
 source $nvim_path/plug-config/lengs.vim
 source $nvim_path/plug-config/emmet.vim
 source $nvim_path/plug-config/vim-javascript.vim
+source $nvim_path/plug-config/coc.vim
 
 " Others config
 source $nvim_path/general/settings.vim
