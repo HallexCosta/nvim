@@ -13,8 +13,8 @@ inoremap jk <Esc>
 inoremap kj <Esc>
 
 " Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
+" inoremap <c-u> <ESC>viwUi
+" nnoremap <c-u> viwU<Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
@@ -66,6 +66,10 @@ nnoremap <C-a> ggVG
 
 " NERDTree toggle with ctrl + o
 nnoremap <C-o> :NERDTreeToggle<CR>
+
+" Scrolling upwards with ctrl + j and downwards with ctrl + k
+nnoremap <C-j> <C-d>
+nnoremap <C-k> <C-u>
 
 " Reload current vim file in memory
 nnoremap <Leader>sv :source $nvim_path/init.vim<cr>
