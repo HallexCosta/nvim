@@ -1,8 +1,7 @@
 " Autoload Plugins
 function AutoloadPlugVim()
     let plug_install_path = $nvim_path . '/autoload/plugged'
-    "   let g:coc_global_extensions=['coc-json', 'coc-tsserver', 'coc-emmet', 'coc-tslint', 'coc-prettier']
-
+    
     call plug#begin(plug_install_path)
         " Intellisense    
         " Plug 'neoclide/coc.nvim', {'branch': 'release'}
