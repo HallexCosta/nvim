@@ -1,9 +1,12 @@
 " set leader key
 let g:mapleader = ","
 
-colorscheme dracula                     " Configure dracula theme
-syntax enable                           " Enables syntax highlighing
+" syntax enable                           " Enables syntax highlighing
+syntax on
+" colorscheme dracula                     " Configure dracula theme
+colorscheme deep-space
 
+set background=dark
 set termguicolors                       " Set pretty colors
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
