@@ -19,7 +19,7 @@ source $nvim_path/plug-config/coc.vim
 source $nvim_path/plug-config/coc-plugins/coc-explorer.vim
 
 " Others config
-source $nvim_path/general/settings.vim
 source $nvim_path/keys/mappings.vim
 source $nvim_path/themes/airline.vim
 source $nvim_path/general/paths.vim
+source $nvim_path/general/settings.vim

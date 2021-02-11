@@ -3,8 +3,7 @@ function AutoloadPlugVim()
     let plug_install_path = $nvim_path . '/autoload/plugged'
     
     call plug#begin(plug_install_path)
-        " Intellisense    
-        " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+        " Intellisense
         Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
         
         " vim-javascript
@@ -41,6 +40,15 @@ function AutoloadPlugVim()
 
         " JSX Typescript syntax
         Plug 'ianks/vim-tsx' 
+
+        " Color scheme Ayu
+        Plug 'ayu-theme/ayu-vim'
+
+        " Color scheme halcyon
+        Plug 'NieTiger/halcyon-neovim'
+
+        " Color scheme dogrun
+        Plug 'wadackel/vim-dogrun'
     call plug#end()
 endfunction
 
