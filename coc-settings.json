@@ -1,5 +1,14 @@
 {
   "eslint.autoFixOnSave": true,
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.icon.enableVimDevicons": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
   "coc.preferences.formatOnSaveFiletypes": [
     "typescript",
     "javascript",
