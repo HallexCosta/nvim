@@ -1,5 +1,5 @@
 " Global extensions
-let g:coc_global_extensions=['coc-json', 'coc-tsserver', 'coc-emmet', 'coc-tslint', 'coc-prettier', 'coc-explorer', 'coc-eslint']
+let g:coc_global_extensions=['coc-json', 'coc-tsserver', 'coc-emmet', 'coc-tslint', 'coc-prettier', 'coc-explorer', 'coc-eslint', 'coc-prettier']
 
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
@@ -16,4 +16,3 @@ nmap <leader>rn <Plug>(coc-rename)
 " Formatting selected code.
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
-
