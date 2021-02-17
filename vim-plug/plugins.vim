@@ -27,8 +27,10 @@ function AutoloadPlugVim()
 
        " Better Syntax Support
         Plug 'sheerun/vim-polyglot'
+
         " File Explorer
         Plug 'scrooloose/NERDTree'
+        
         " Auto pairs for '(' '[' '{'
         Plug 'jiangmiao/auto-pairs'  
 
@@ -49,6 +51,15 @@ function AutoloadPlugVim()
 
         " Color scheme dogrun
         Plug 'wadackel/vim-dogrun'
+
+        " NERDTree
+        Plug 'preservim/nerdtree'
+
+        " nerdtree with git integration
+        Plug 'Xuyuanp/nerdtree-git-plugin'
+
+        " Dev icons
+        Plug 'ryanoasis/vim-devicons'
     call plug#end()
 endfunction
 
