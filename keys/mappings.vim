@@ -1,3 +1,6 @@
+" Exit visual mode to normal mode
+vnoremap q <Esc>
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -65,11 +68,17 @@ inoremap <silent> <A-S-f> <Esc>gg=G
 nnoremap <C-a> ggVG
 
 " NERDTree toggle with ctrl + o
-nnoremap <C-o> :NERDTreeToggle<CR>
+"nnoremap <C-o> :NERDTreeToggle<CR>
+
+" Coc Explorer toggle with ctrl + o
+nnoremap <C-o> :CocCommand explorer<CR>
 
 " Scrolling upwards with ctrl + j and downwards with ctrl + k
 nnoremap <C-j> <C-d>
 nnoremap <C-k> <C-u>
 
 " Reload current vim file in memory
-nnoremap <Leader>sv :source $nvim_path/init.vim<cr>
+nnoremap <Leader>sv :source $nvim_path/init.vim<CR>
+
+source $nvim_path/keys/terminal.vim
+source $nvim_path/keys/buffers.vim
