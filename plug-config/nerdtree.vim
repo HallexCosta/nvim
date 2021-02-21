@@ -8,7 +8,7 @@ let NERDTreeIgnore = []
 let NERDTreeStatusline = ''
 
 " NERDTree-git-plugin
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
     \ "Untracked" : "✭",
