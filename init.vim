@@ -1,6 +1,6 @@
 " Get absolute directory (NeoVim ^0.3.0)
 " or use function 'getcwd()' (NeoVim ^0.2.2)
-let $nvim_path = stdpath('config')
+let $nvim_path = stdpath('config') 
 
 " Autoload vim-plug
 source $nvim_path/vim-plug/bootstrap/autoload.vim
