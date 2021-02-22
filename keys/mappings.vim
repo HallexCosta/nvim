@@ -32,6 +32,8 @@ nnoremap <C-Q> :wq!<CR>
 nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" <ENTER> completion
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " Better tabbing
 vnoremap <silent> < <gv
