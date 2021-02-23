@@ -1,1 +1,1 @@
-let g:python3_host_prog = expand("C:/Python38")
+let g:python3_host_prog = expand("/usr/bin/python3")
