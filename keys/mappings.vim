@@ -60,6 +60,7 @@ vnoremap <silent> <A-k> :m '<-2<CR>gv=gv
 
 " Undo
 nnoremap <silent> <C-z> u
+vnoremap <silent> <C-z> <Esc>u
 inoremap <silent> <C-z> <Esc>u
 
 " Auto identation
@@ -84,3 +85,4 @@ nnoremap <Leader>sv :source $nvim_path/init.vim<CR>
 
 source $nvim_path/keys/terminal.vim
 source $nvim_path/keys/buffers.vim
+source $nvim_path/keys/tsimport.vim
