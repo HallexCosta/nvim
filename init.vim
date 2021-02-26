@@ -15,7 +15,7 @@ source $nvim_path/vim-plug/bootstrap/plug_install.vim
 source $nvim_path/plug-config/lengs.vim
 source $nvim_path/plug-config/emmet.vim
 source $nvim_path/plug-config/vim-javascript.vim
-source $nvim_path/plug-config/nerdtree.vim
+source $nvim_path/plug-config/nerd.vim
 source $nvim_path/plug-config/coc.vim
 source $nvim_path/plug-config/coc-plugins/coc-explorer.vim
 

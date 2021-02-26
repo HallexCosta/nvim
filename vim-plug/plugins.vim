@@ -54,6 +54,8 @@ function AutoloadPlugVim()
 
         " NERDTree
         Plug 'preservim/nerdtree'
+        " NERDCommenter
+        Plug 'preservim/nerdcommenter'
 
         " nerdtree with git integration
         Plug 'Xuyuanp/nerdtree-git-plugin'
