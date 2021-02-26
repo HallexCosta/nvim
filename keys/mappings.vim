@@ -84,3 +84,4 @@ source $nvim_path/keys/terminal.vim
 source $nvim_path/keys/buffers.vim
 source $nvim_path/keys/tsimport.vim
 source $nvim_path/keys/coc.vim
+source $nvim_path/keys/nerd.vim
