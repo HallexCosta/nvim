@@ -83,3 +83,4 @@ nnoremap <Leader>sv :source $nvim_path/init.vim<CR>
 source $nvim_path/keys/terminal.vim
 source $nvim_path/keys/buffers.vim
 source $nvim_path/keys/tsimport.vim
+source $nvim_path/keys/coc.vim
