@@ -73,9 +73,6 @@ nnoremap <C-a> ggVG
 " NERDTree toggle with ctrl + o
 "nnoremap <C-o> :NERDTreeToggle<CR>
 
-" Coc Explorer toggle with ctrl + o
-nnoremap <C-o> :CocCommand explorer<CR>
-
 " Scrolling upwards with ctrl + j and downwards with ctrl + k
 nnoremap <C-j> <C-d>
 nnoremap <C-k> <C-u>

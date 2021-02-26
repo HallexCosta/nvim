@@ -17,7 +17,6 @@ source $nvim_path/plug-config/emmet.vim
 source $nvim_path/plug-config/vim-javascript.vim
 source $nvim_path/plug-config/nerd.vim
 source $nvim_path/plug-config/coc.vim
-source $nvim_path/plug-config/coc-plugins/coc-explorer.vim
 
 " Others config
 source $nvim_path/keys/mappings.vim
