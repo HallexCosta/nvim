@@ -2,4 +2,4 @@ fonts/
 autoload/
 www/
 .netrwhist
-rplugin/node/neovim/node_modules/
+rplugin/node/**/node_modules/
