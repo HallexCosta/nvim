@@ -9,6 +9,8 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
+  "suggest.autoTrigger": "always",
+  "suggest.echodocSupport": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "typescript",
     "javascript",
