@@ -70,6 +70,9 @@ function AutoloadPlugVim()
         Plug 'Shougo/deoplete.nvim'
         " For Denite features
         Plug 'Shougo/denite.nvim'
+
+        " Styled-component for vim
+        Plug 'styled-components/vim-styled-components' 
     call plug#end()
 endfunction
 
