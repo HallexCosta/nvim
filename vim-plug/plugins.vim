@@ -73,6 +73,9 @@ function AutoloadPlugVim()
 
         " Styled-component for vim
         Plug 'styled-components/vim-styled-components' 
+
+        " Auto rename tag
+        Plug 'qpkorr/vim-renamer'
     call plug#end()
 endfunction
 
