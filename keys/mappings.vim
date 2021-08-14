@@ -77,7 +77,7 @@ nnoremap <C-a> ggVG
 nnoremap <C-j> <C-d>
 nnoremap <C-k> <C-u>
 
-" Fast exit any mode
+" Fast exit go back normal mode with keys z + q
 map <silent> zq <Esc>
 
 " Reload current vim file in memory
