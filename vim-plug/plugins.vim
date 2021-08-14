@@ -76,6 +76,9 @@ function AutoloadPlugVim()
 
         " Auto rename tag
         Plug 'qpkorr/vim-renamer'
+
+        " Multiple cursors
+        Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     call plug#end()
 endfunction
 
