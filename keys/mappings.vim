@@ -77,6 +77,9 @@ nnoremap <C-a> ggVG
 nnoremap <C-j> <C-d>
 nnoremap <C-k> <C-u>
 
+" Fast exit any mode
+map <silent> zq <Esc>
+
 " Reload current vim file in memory
 nnoremap <Leader>sv :source $nvim_path/init.vim<CR>
 
