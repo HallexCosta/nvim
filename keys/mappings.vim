@@ -85,8 +85,12 @@ map <silent> zq <Esc>
 " Reload current vim file in memory
 nnoremap <Leader>sv :source $nvim_path/init.vim<CR>
 
-source $nvim_path/keys/terminal.vim
-source $nvim_path/keys/buffers.vim
-source $nvim_path/keys/tsimport.vim
-source $nvim_path/keys/coc.vim
-source $nvim_path/keys/nerd.vim
+let $keys_path = stdpath('config') . '/keys'
+let $keys_nerd_path = $keys_path . '/nerd'
+let $keys_coc_path = $keys_path . '/coc'
+
+source $keys_path/terminal.vim
+source $keys_path/buffers.vim
+source $keys_path/tsimport.vim
+source $keys_path/coc.vim
+source $keys_path/nerd.vim

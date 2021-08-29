@@ -1,5 +1,5 @@
-source $nvim_path/keys/coc/explorer.vim
-source $nvim_path/keys/coc/formatting-select-code.vim
-source $nvim_path/keys/coc/goto-code-navigation.vim
-source $nvim_path/keys/coc/others.vim
-source $nvim_path/keys/coc/trigger-completion.vim
+source $keys_coc_path/explorer.vim
+source $keys_coc_path/formatting-select-code.vim
+source $keys_coc_path/goto-code-navigation.vim
+source $keys_coc_path/others.vim
+source $keys_coc_path/trigger-completion.vim

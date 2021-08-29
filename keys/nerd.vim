@@ -1,1 +1,1 @@
-source $nvim_path/keys/nerd/commenter.vim
+source $keys_nerd_path/commenter.vim
