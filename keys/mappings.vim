@@ -30,8 +30,10 @@ nnoremap <silent> <C-s> :w<CR>
 nnoremap <C-Q> :wq!<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
-" <TAB>: completion.
+" <TAB>: move completion to down.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" <TAB>: move completion to up.
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 " <ENTER> completion
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
